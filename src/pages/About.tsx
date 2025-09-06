@@ -46,7 +46,7 @@ const About = () => {
                 <div className="w-64 h-64 md:w-80 md:h-80">
                   <img 
                     src="/pp.png" 
-                    alt="Stephanie Wang profile picture"
+                    alt="Akshar Rughani profile picture"
                     className="w-full h-full object-contain rounded-lg"
                   />
                 </div>
