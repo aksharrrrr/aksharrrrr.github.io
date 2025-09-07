@@ -4,7 +4,6 @@ const Header = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: "About", path: "/" },
     { name: "Resume", path: "/resume" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "Gallery", path: "/gallery" },

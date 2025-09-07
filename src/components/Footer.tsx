@@ -9,6 +9,7 @@ const Footer = () => {
             href="https://github.com/aksharrrrr"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <Github className="h-5 w-5" />
@@ -17,13 +18,14 @@ const Footer = () => {
             href="https://www.linkedin.com/in/akshar-rughani-5086731b4/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <Linkedin className="h-5 w-5" />
           </a>
         </div>
         <div className="text-sm text-muted-foreground text-center">
-          © 2025 Akshar Rughani. All rights reserved.
+          © {new Date().getFullYear()} Akshar Rughani. All rights reserved.
         </div>
       </div>
     </footer>
