@@ -64,9 +64,23 @@ const About = () => {
             {/* Social links */}
             <div className="flex justify-center mt-20">
               <div className="text-sm text-gray-600 font-inter">
-                <a href="#" className="hover:text-blue-600 transition-colors">linkedin</a>
+                <a 
+                  href="https://www.linkedin.com/in/akshar-rughani-5086731b4/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-600 transition-colors"
+                >
+                  linkedin
+                </a>
                 <span className="mx-2">|</span>
-                <a href="#" className="hover:text-blue-600 transition-colors">github</a>
+                <a 
+                  href="https://github.com/aksharrrrr" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-600 transition-colors"
+                >
+                  github
+                </a>
               </div>
             </div>
             
