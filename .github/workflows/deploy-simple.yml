@@ -2,7 +2,7 @@ name: Build and deploy to external Pages repo
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 permissions:
   contents: read
