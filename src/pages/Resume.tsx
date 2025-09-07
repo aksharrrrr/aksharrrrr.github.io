@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import { withBase } from "@/lib/utils";
 import { useState } from "react";
 import { 
   Menu, 
@@ -118,7 +119,7 @@ const Resume = () => {
               >
                 {/* PDF Viewer */}
                 <iframe
-                  src="/akshar_rughani.pdf"
+                  src={withBase("/akshar_rughani.pdf")}
                   width="100%"
                   height="100%"
                   title="Resume PDF"
@@ -128,7 +129,7 @@ const Resume = () => {
                   <p className="p-8 text-center text-muted-foreground">
                     Your browser doesn't support PDF viewing. 
                     <a 
-                      href="/akshar_rughani.pdf" 
+                      href={withBase("/akshar_rughani.pdf")} 
                       className="text-blue-600 hover:text-blue-800 ml-1 underline"
                       target="_blank"
                       rel="noopener noreferrer"

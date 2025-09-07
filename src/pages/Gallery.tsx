@@ -1,41 +1,42 @@
 import Layout from "@/components/Layout";
+import { withBase } from "@/lib/utils";
 
 const Gallery = () => {
   // Gallery items - easy to add new pictures by adding objects to this array
   const galleryItems = [
     {
       id: 0,
-      image: "/image_0.jpg",
+      image: withBase("/image_0.jpg"),
       caption: "Ctrl + S: Life milestone saved. DAIICT, Convocation day, 2023"
     },
     {
       id: 1,
-      image: "/image_1.jpg",
+      image: withBase("/image_1.jpg"),
       caption: "The Mighty Gonbo Rangjon: No words needed. Zanskar, 2025"
     },
     {
       id: 2,
-      image: "/image_2.jpg",
+      image: withBase("/image_2.jpg"),
       caption: "From backend systems to Himalayan rhythms - Manali Bike Trip, 2023"
     },
     {
       id: 3,
-      image: "/image_3.jpg",
+      image: withBase("/image_3.jpg"),
       caption: "Throwing colors, catching snow - Sangla diaries, 2024."
     },
     {
       id: 4,
-      image: "/image_4.jpg",
+      image: withBase("/image_4.jpg"),
       caption: "Caught in a rabbit-hole, literally. Nainital Bike Ride, 2025"
     },
     {
       id: 5,
-      image: "/image_5.jpg",
+      image: withBase("/image_5.jpg"),
       caption: "Frozen fingers, full throttle – Sinkula Pass, 5091 meters"
     },
     {
       id: 6,
-      image: "/image_6.jpg",
+      image: withBase("/image_6.jpg"),
       caption: "Camping gear, cold mist, and Beatles bliss. Indrahar Pass, August, 2024"
     }
   ];

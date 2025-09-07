@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import { withBase } from "@/lib/utils";
 import { Link, useLocation } from "react-router-dom";
 
 const About = () => {
@@ -45,7 +46,7 @@ const About = () => {
               <div className="flex justify-center md:justify-start mb-6 md:mb-0 w-full">
                 <div className="w-64 h-64 md:w-80 md:h-80">
                   <img 
-                    src="/pp.png" 
+                    src={withBase("/pp.png")} 
                     alt="Akshar Rughani profile picture"
                     className="w-full h-full object-contain rounded-lg"
                   />
