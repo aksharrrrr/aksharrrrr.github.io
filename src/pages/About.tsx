@@ -68,6 +68,7 @@ const About = () => {
                   href="https://www.linkedin.com/in/akshar-rughani-5086731b4/" 
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn"
                   className="hover:text-blue-600 transition-colors"
                 >
                   linkedin
@@ -77,6 +78,7 @@ const About = () => {
                   href="https://github.com/aksharrrrr" 
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="GitHub"
                   className="hover:text-blue-600 transition-colors"
                 >
                   github
