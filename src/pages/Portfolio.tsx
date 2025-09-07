@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import { withBase } from "@/lib/utils";
 import { useState } from "react";
 import { 
   Menu, 
@@ -28,25 +29,25 @@ const Portfolio = () => {
     {
       title: "Product Requirements Document 1",
       description: "Comprehensive PRD outlining project specifications, requirements, and technical details.",
-      link: "/PRD_1.pdf",
+      link: withBase("/PRD_1.pdf"),
       isPdf: true
     },
     {
       title: "Product Requirements Document 2", 
       description: "Detailed PRD covering system architecture, user flows, and implementation guidelines.",
-      link: "/PRD_2.pdf",
+      link: withBase("/PRD_2.pdf"),
       isPdf: true
     },
     {
       title: "Product Requirements Document 3",
       description: "Advanced PRD with comprehensive feature specifications and technical requirements.",
-      link: "/PRD_3.pdf",
+      link: withBase("/PRD_3.pdf"),
       isPdf: true
     },
     {
       title: "Product Requirements Document 4",
       description: "Strategic PRD focusing on business objectives, user needs, and technical solutions.",
-      link: "/PRD_4.pdf",
+      link: withBase("/PRD_4.pdf"),
       isPdf: true
     }
   ];
